@@ -8,7 +8,7 @@
  * compare @c with loop var
  * Return: 1 if is uppercase or 0 if its lowercase
  */
-int _isupper(char c)
+int _isupper(int c)
 {
 	char i;
 
@@ -18,6 +18,9 @@ int _isupper(char c)
 		{
 			return (1);
 		}
+		else
+		{
+			return (0);
+		}
 	}
-	return (0);
 }
