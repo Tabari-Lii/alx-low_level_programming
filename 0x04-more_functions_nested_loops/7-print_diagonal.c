@@ -5,7 +5,7 @@
  *
  * Return: does not return anything
  */
-void print_line(int n)
+void print_diagonal(int n)
 {
 	int i;
 	int j;
