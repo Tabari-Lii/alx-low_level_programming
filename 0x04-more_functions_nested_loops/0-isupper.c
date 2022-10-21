@@ -11,16 +11,18 @@
 int _isupper(int c)
 {
 	char i;
+	int val;
 
 	for (i = 'A'; i <= 'Z'; i++)
 	{
 		if (i == c)
 		{
-			return (1);
+			val = 1;
 		}
 		else
 		{
-			return (0);
+			val = 0;
 		}
 	}
+	return (val);
 }
